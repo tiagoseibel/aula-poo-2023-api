@@ -10,6 +10,7 @@ public interface CorrentistaRepository
         extends JpaRepository<Correntista, Integer> {
 
     public Correntista findByCpf(String cpf);
+    public Correntista findByChavePix(String chavePix);
 
 //    @Query(value = "select * from correntistas where nome like ?", nativeQuery = true)
 //    public List<Correntista> pesquisarCorrentistas(String nome);

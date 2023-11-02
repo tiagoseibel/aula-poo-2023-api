@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/correntista")
+@CrossOrigin("*")
 public class CorrentistaController {
 
     @Autowired
